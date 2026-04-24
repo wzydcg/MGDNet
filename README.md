@@ -7,28 +7,24 @@
 ---
 
 ## Introduction
-![Intro.png](picture/Intro.png)
+![running.jpg](picture/running.jpg)
 ## Approach
 
-![MCDNet.png](picture/MCDNet.png)
+![model.jpg](picture/model.jpg)
 
-## Morphological-Conditional Convolution
-![MCConv.png](picture/MCConv.png)
+## Frequency-Aware Attention
+![FAA.jpg](picture/FAA.jpg)
 
-## Dataset
+## Conditional-Enhanced Attention
+![CEA.jpg](picture/CEA.jpg)
 
-Download the RAOS dataset from [here](https://github.com/Luoxd1996/RAOS).
-
-Download the CAS2023 dataset from [here](https://codalab.lisn.upsaclay.fr/competitions/9804#participate-get_starting_kit).
-
-Download the MM-WHS dataset from [here](https://mega.nz/folder/UNMF2YYI#1cqJVzo4p_wESv9P_pc8uA).
-
-Download the MSD dataset from [here](http://medicaldecathlon.com/).
+## Experimental results
+![vision1.jpg](picture/vision1.jpg)
 
 ## Training
 
 ### Default Scripts
-All default hyperparameters among these models are tuned for RAOS datasets.
+All default hyperparameters among these models are tuned for Lung lesion datasets.
 
 Wandb is needed if visualization of training parameters is wanted
 
@@ -60,22 +56,3 @@ python main.py \
 - nibabel==5.2.1
 - wandb
 
-## Citation
-
-```
-@ARTICLE{
-  author={Wang, Zhiyan and Wang, Changjian and Xu, Kele and Tang, Zhongshun and Zhuang, Yan and Zou, Jiani and Liu, Fangyi},
-  journal={}, 
-  title={MCDNet: Morphological-Conditional Dual-view Fusion for 3D Tubular Structure Segmentation}, 
-  year={2025},
-  volume={},
-  number={},
-  pages={},
-  keywords={Tubular Structure Segmentation;Conditional Convolution;Dual-view Architecture},
-  doi={}}
-
-```
-
-## Contact Us
-
-If you are interested to leave a message, please feel free to send any email to us at ```wangzhiyan24@nudt.edu.cn```
