@@ -33,7 +33,7 @@ Wandb is needed if visualization of training parameters is wanted
 run script like this:
 ```bash
 python main.py \
---model Our_UNet \
+--model MGDNet \
 --dataset RAOS \
 --batch_size 4 \
 --num_epochs 200 \
