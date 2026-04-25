@@ -1,10 +1,5 @@
 # MGDNet: Multi-Granularity Difference-aware Network for Pulmonary Lesion Segmentation
 
-[![stars - MGDNet](https://img.shields.io/github/stars/wzydcg/MGDNet?style=social)](https://github.com/wzydcg/MGDNet)
-[![forks - MGDNet](https://img.shields.io/github/forks/wzydcg/MGDNet?style=social)](https://github.com/wzydcg/MGDNet)
-![language](https://img.shields.io/github/languages/top/wzydcg/MGDNet?color=lightgrey)
-![license](https://img.shields.io/github/license/wzydcg/MGDNet)
----
 
 ## Introduction
 ![running.jpg](picture/running.jpg)
